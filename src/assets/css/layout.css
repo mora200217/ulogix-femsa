@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+/* Containers */
+.bs-container {
+  inline-size: min(92vw, 120rem);
+  margin-inline: auto;
+}
+
+/* Top Margins */
+.bs-mt-lg {
+  @apply mt-16 lg:mt-32
+}
+
+.bs-mt-md {
+  @apply mt-10 lg:mt-16
+}
+
+.bs-mt-sm {
+  @apply mt-6 lg:mt-8
+}
+/* === Cards === */
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 240px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255,255,255,0.2);
+}
+
+/* === Section spacing === */
+.section {
+  padding: 300px 0;
+}
+
+/* === Table === */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.table th {
+  text-align: left;
+  opacity: 0.7;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.table td {
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.table tr:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+/* === Graph (bars) === */
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  height: 200px;
+}
+
+.bar {
+  width: 32px;
+  background: linear-gradient(to top, #4ade80, #22c55e);
+  border-radius: 6px 6px 0 0;
+  animation: grow 1s ease forwards;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+@keyframes grow {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+/* === Diagram blocks === */
+.diagram {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.diagram-box {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.02);
+}
+
+/* === Titles === */
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  opacity: 0.7;
+  max-width: 600px;
+}

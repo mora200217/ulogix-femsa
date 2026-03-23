@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Estado pre-automatización",
+    "subtitle": "Diagnóstico del sistema productivo",
+    "content": "<strong>No se puede optimizar lo que no se entiende.</strong> Analizamos líneas, métricas y procesos.",
+    "cta": "Iniciar diagnóstico",
+    "image": "diagnostico",
+    "image_alt": ""
+  },
+  {
+    "title": "Propuesta de automatización",
+    "subtitle": "Diseño de la solución técnica",
+    "content": "<strong>Transformamos datos en soluciones.</strong> Definimos arquitectura, selección de equipos y estrategia de control.",
+    "cta": "Ver propuesta",
+    "image": "diagnostico",
+    "image_alt": ""
+  },
+  {
+    "title": "Costos y finanzas",
+    "subtitle": "Evaluación económica del proyecto",
+    "content": "<strong>La automatización debe ser rentable.</strong> Analizamos inversión, retorno (ROI) y escalabilidad del sistema.",
+    "cta": "Analizar costos",
+    "image": "diagnostico",
+    "image_alt": ""
+  }
+]

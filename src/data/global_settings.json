@@ -1,0 +1,55 @@
+{
+  "title": "Propuesta de automatización",
+  "description": "Propuesta de automatización en lineas de producción de productos para CocaCola",
+  "social_image": "/1200x630.jpg",
+  "base_url": "https://astro-theme.blackspike.com",
+  "demo": {
+    "title": "Contáctanos",
+    "content": "<strong>Get a guided tour through our services</strong>, and find out how you and your team can change the way you work, forever.",
+    "cta": "Más información"
+  },
+  "theme_color": "#18181b",
+  "nav": [
+    {
+      "title": "Propuesta",
+      "link": "/info"
+    },
+    {
+      "title": "Finanzas y Costos",
+      "link": "/#services"
+    },
+    {
+      "title": "Estado inicial",
+      "link": "/#case-studies"
+    },
+    
+    {
+      "title": "Acerca de nosotros",
+      "link": "/#case-studies"
+    }
+ 
+  ],
+
+  "social_links": [
+    {
+      "title": "Twitter / X",
+      "link": "https://x.com/blackspikeltd/"
+    },
+    {
+      "title": "Mastodon",
+      "link": "https://mastodon.cloud/@blackspike"
+    },
+    {
+      "title": "GitHub",
+      "link": "https://github.com/blackspike/"
+    },
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/company/blackspike"
+    },
+    {
+      "title": "Bluesky",
+      "link": "https://bsky.app/profile/blackspike.com/"
+    }
+  ]
+}

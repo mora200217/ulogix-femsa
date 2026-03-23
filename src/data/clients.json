@@ -1,0 +1,27 @@
+[
+  {
+    "title": "ABB",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/ABB_logo.svg",
+    "link": "https://new.abb.com"
+  },
+  {
+    "title": "Siemens",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Siemens-logo.svg",
+    "link": "https://www.siemens.com"
+  },
+  {
+    "title": "Honeywell",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Honeywell_logo.svg",
+    "link": "https://www.honeywell.com"
+  },
+  {
+    "title": "Bosch",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bosch-logo.svg",
+    "link": "https://www.bosch.com"
+  },
+  {
+    "title": "Rockwell Automation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Rockwell_Automation_logo_%282019%29.svg",
+    "link": "https://www.rockwellautomation.com"
+  }
+]
